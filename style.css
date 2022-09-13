@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+    background-color: lightgray;
+    font-size: large;
+}
+
+input {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}

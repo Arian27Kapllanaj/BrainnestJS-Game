@@ -61,10 +61,9 @@ function choiceResult(playerSelection, computerSelection) {
     document.getElementById("computerChoice").innerText = "Computer picked: " + computerSelection;
 }
 
-function disableBtns() {
-    document.getElementById("choice").disable = true;
+function disableBtns(won, lose) {
+
     setTimeout(() => {
-        document.getElementById("choice").disable = true;
         document.getElementById("results").innerText = "";
         document.getElementById("playAgain").innerText = "";
         document.getElementById("playerChoice").innerText = "";
